@@ -29,8 +29,8 @@
       "required": false
     },
     "comments": {
-      "collection": "comment",
-      "via": "article"
+      "via": "article",
+      "collection": "comment"
     }
   }
 }

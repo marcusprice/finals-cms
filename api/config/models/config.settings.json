@@ -13,54 +13,58 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "tagline": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "hero_opacity": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true,
+      "default": 0.3
     },
     "shop_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "about_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "hero_logo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "terms_of_use_text": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "comments": {
       "type": "boolean",
@@ -68,6 +72,14 @@
     },
     "featured_article": {
       "model": "article"
+    },
+    "social_media_title": {
+      "type": "string",
+      "required": true
+    },
+    "social_media_description": {
+      "type": "text",
+      "required": true
     }
   }
 }

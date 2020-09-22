@@ -10,14 +10,16 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "text": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "article": {
-      "via": "comments",
-      "model": "article"
+      "model": "article",
+      "via": "comments"
     }
   }
 }
