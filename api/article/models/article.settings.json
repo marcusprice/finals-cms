@@ -17,14 +17,6 @@
       "type": "richtext",
       "required": true
     },
-    "users": {
-      "plugin": "users-permissions",
-      "collection": "user"
-    },
-    "date_posted": {
-      "type": "date",
-      "required": true
-    },
     "featured_image": {
       "model": "file",
       "via": "related",
@@ -37,8 +29,8 @@
       "required": false
     },
     "comments": {
-      "via": "article",
-      "collection": "comment"
+      "collection": "comment",
+      "via": "article"
     }
   }
 }

@@ -23,8 +23,51 @@
     "tagline": {
       "type": "text"
     },
-    "about_text": {
+    "hero_opacity": {
+      "type": "decimal"
+    },
+    "shop_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "about_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "hero_logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "terms_of_use_text": {
       "type": "richtext"
+    },
+    "comments": {
+      "type": "boolean",
+      "default": true
+    },
+    "featured_article": {
+      "model": "article"
     }
   }
 }
