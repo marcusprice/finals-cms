@@ -70,9 +70,6 @@
       "type": "boolean",
       "default": true
     },
-    "featured_article": {
-      "model": "article"
-    },
     "social_media_title": {
       "type": "string",
       "required": true
