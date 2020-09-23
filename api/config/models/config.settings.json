@@ -27,7 +27,9 @@
     "hero_opacity": {
       "type": "decimal",
       "required": true,
-      "default": 0.3
+      "default": 0.3,
+      "max": 1,
+      "min": 0
     },
     "shop_image": {
       "model": "file",
@@ -77,6 +79,9 @@
     "social_media_description": {
       "type": "text",
       "required": true
+    },
+    "shop_link": {
+      "type": "string"
     }
   }
 }
