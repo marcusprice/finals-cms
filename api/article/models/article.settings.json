@@ -29,8 +29,12 @@
       "required": false
     },
     "comments": {
-      "via": "article",
-      "collection": "comment"
+      "collection": "comment",
+      "via": "article"
+    },
+    "published": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
