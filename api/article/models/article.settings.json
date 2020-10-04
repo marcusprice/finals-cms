@@ -35,6 +35,10 @@
     "published": {
       "type": "boolean",
       "default": false
+    },
+    "slug": {
+      "type": "string",
+      "required": false
     }
   }
 }
