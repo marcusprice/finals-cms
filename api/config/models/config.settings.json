@@ -82,6 +82,12 @@
     },
     "shop_link": {
       "type": "string"
+    },
+    "about_link_text": {
+      "type": "string"
+    },
+    "shop_link_text": {
+      "type": "string"
     }
   }
 }

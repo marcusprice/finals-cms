@@ -39,6 +39,9 @@
     "slug": {
       "type": "string",
       "required": false
+    },
+    "categories": {
+      "collection": "categories"
     }
   }
 }
